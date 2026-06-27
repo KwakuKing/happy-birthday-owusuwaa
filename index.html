@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Tumtum Bronii ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/photo7.jpg">
+</head>
+
+<body>
+    <div id="loginScreen">
+
+    <div class="login-box">
+
+        <h1>❤️</h1>
+
+        <h2>A Special Surprise</h2>
+
+        <p>
+            This website was made with love for one very special person.
+        </p>
+
+        <p>
+            Are you my <strong>Tumtum Bronii</strong>? 💕
+        </p>
+
+        <input
+            type="password"
+            id="password"
+            placeholder="Enter our secret password">
+
+        <br><br>
+        <p>
+💌 Hint:
+The password is something only we know.
+</p>
+
+        <button onclick="checkPassword()">
+            Unlock My Heart ❤️
+        </button>
+
+        <p id="error"></p>
+
+    </div>
+
+</div>
+
+<div id="website" style="display:none;">
+
+<div id="hearts-container"></div>
+   <section class="hero">
+
+    <img src="/images/photo7.jpg" class="hero-image">
+
+    <h1>Happy Birthday ❤️</h1>
+
+    <h2>My Tumtum Bronii</h2>
+
+</section>
+
+    <section class="music">
+
+    <h2>🎵 Your Song</h2>
+
+    <button onclick="playMusic()">▶️ Play</button>
+
+    <button onclick="pauseMusic()">⏸️ Pause</button>
+
+    <button onclick="stopMusic()">⏹️ Stop</button>
+
+    <button onclick="toggleRepeat()">🔁 Repeat: OFF</button>
+
+</section>
+<br><br>
+
+<label>🔊 Volume</label>
+
+<input
+type="range"
+min="0"
+max="1"
+step="0.1"
+value="1"
+oninput="changeVolume(this.value)">
+
+<audio id="song">
+    <source src="music/Maame Wusuwaa.mp3" type="audio/mpeg">
+</audio>
+
+    <section class="message">
+        <h2>A Special Message</h2>
+
+        <p>
+            Dear Tumtum Bronii,
+        </p>
+
+        <p>
+            Today is all about celebrating you. Every moment spent with you
+            is a blessing that I never take for granted.
+        </p>
+
+        <p>
+            Wo yɛ me anigye.
+        </p>
+
+        <p>
+            Wo ho yɛ fɛ paa.
+        </p>
+
+        <p>
+            Medɔ wo paa. 
+        </p>
+
+        <p>
+            Thank you for your kindness, your laughter, your support,
+            and the love you bring into my life every day.
+        </p>
+
+        <p>
+            May God bless you abundantly and grant all the desires of your heart.
+            I pray that this new year brings joy, peace, favor, and success.
+        </p>
+
+        <p>
+            Happy Birthday, my Tumtum Bronii ❤️
+        </p>
+    </section>
+
+    <section class="counter">
+    <h2>❤️ We've Been Creating Memories For</h2>
+    <p id="relationshipCounter"></p>
+</section>
+
+    <section class="gallery">
+        <h2>A collection of your beauty 📸</h2>
+
+        <div class="photos">
+            <img src="images/photo1.jpg" alt="">
+            <img src="images/photo2.jpg" alt="">
+            <img src="images/photo3.jpg" alt="">
+            <img src="images/photo4.jpg" alt="">
+            <img src="images/photo5.jpg" alt="">
+            <img src="images/photo6.jpg" alt="">
+            <img src="images/photo7.jpg" alt="">
+            <img src="images/photo8.jpg" alt="">
+            <img src="images/photo9.jpg" alt="">
+            <img src="images/photo10.jpg" alt="">
+            <img src="images/photo11.jpg" alt="">
+            <img src="images/photo12.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="reasons">
+
+    <h2>10 Things I Love About My Tumtum Bronii ❤️</h2>
+
+    <ol>
+        <li>Your beautiful smile 😊</li>
+        <li>Your kind heart ❤️</li>
+        <li>Your faith in God 🙏</li>
+        <li>Your laughter 😂</li>
+        <li>Your support during difficult times 🤗</li>
+        <li>Your intelligence 🧠</li>
+        <li>Your beauty 😍</li>
+        <li>The way you care for people 🌹</li>
+        <li>Your honesty 🤍</li>
+        <li>The peace you bring into my life ✨</li>
+    </ol>
+
+</section>
+
+    <section class="love-counter">
+        <h2>Message from my heart ❤️</h2>
+
+        <button onclick="showLove()">
+            Click Me ❤️
+        </button>
+
+        <p id="loveText"></p>
+    </section>
+
+    <section class="surprise">
+
+    <h2>A Final Question ❤️</h2>
+
+    <button onclick="foreverLove()">
+        Click Here My Love
+    </button>
+
+    <p id="foreverMessage"></p>
+
+</section>
+
+    <footer>
+        Made with ❤️ by King-David for Tumtum Bronii
+    </footer>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
